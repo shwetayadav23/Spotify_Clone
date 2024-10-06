@@ -1,0 +1,548 @@
+body{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar{
+    width: 420px;
+    height: 100%;
+    background-color: black;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.main-content{
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.music-player{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 72px;
+    width: 100%;
+    background-color: black;
+    padding: 1rem;
+}
+
+.nav{
+    border-radius: 0.75rem;
+    height: 120px;
+    background-color: #121212;
+    margin: 0.5rem;
+}
+
+.nav-option{
+    padding: 1rem;
+}
+
+.nav-option i{
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.nav-option i:hover{
+    opacity: 1;
+}
+
+.nav-option a:hover{
+    opacity: 1;
+}
+
+.library{
+    height: 100%;
+    background-color: #121212;
+    border-radius: 0.75rem;
+    margin: 0.5rem;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lib-option{
+    margin: 1.25rem;
+    opacity: 0.7;
+    font-size: 1rem;
+}
+
+.lib-icons{
+    margin: 1.25rem;
+    font-size: 20px;
+}
+
+.lib-option img{
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.lib-option:hover{
+    opacity: 1;
+}
+
+.lib-icons i{
+    opacity: 0.6;
+}
+
+.lib-icons i:hover{
+    opacity: 1;
+}
+
+.badges{
+    display: flex;
+    margin: 1rem;
+}
+
+.badges button{
+    border-radius: 4rem;
+    margin-right: 1rem;
+    height: 35px;
+    width: 80px;
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+    font-weight: 600;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.badges button:hover{
+    background-color: #4b4b4b;
+}
+
+.recent{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.recent i{
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+    opacity: 0.5;
+}
+
+.recent a{
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.recent i:hover{
+    opacity: 1;
+    font-size: 1rem;
+}
+
+.recent a:hover{
+    opacity: 1;
+    font-size: 0.75rem;
+}
+
+.songs{
+    overflow: auto;
+}
+
+.liked-songs{
+    display: flex;
+}
+
+.liked-songs img{
+    height: 3.35rem;
+    width: 3.35rem;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.part-1{
+    margin-top: 1.5rem;
+}
+
+.part-2{
+    margin-top: 2.75rem;
+    margin-left: -97px;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+}
+
+.lost-found img{
+    height: 3.35rem;
+    width: 3.35rem;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.lost-found{
+    display: flex;
+}
+
+.part-3{
+    margin-top: 1.5rem;
+}
+
+.part-4{
+    margin-top: 2.75rem;
+    margin-left: -90px;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+}
+
+.atif-aslam{
+    display: flex;
+}
+
+.atif-aslam img{
+    height: 3.35rem;
+    width: 3.35rem;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.part-5{
+    margin-top: 1.5rem;
+}
+
+.part-6{
+    margin-top: 2.75rem;
+    margin-left: -80px;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+}
+
+.ed-sheeran{
+    display: flex;
+}
+
+.ed-sheeran img{
+    height: 3.35rem;
+    width: 3.35rem;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.part-7{
+    margin-top: 1.5rem;
+}
+
+.part-8{
+    margin-top: 2.75rem;
+    margin-left: -90px;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+}
+
+.tanzeel-khan{
+    display: flex;
+}
+
+.tanzeel-khan img{
+    height: 3.35rem;
+    width: 3.35rem;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.part-9{
+    margin-top: 1.5rem;
+}
+
+.part-10{
+    margin-top: 2.75rem;
+    margin-left: -105px;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+}
+
+.arjun-kanungo{
+    display: flex;
+}
+
+.arjun-kanungo img{
+    height: 3.35rem;
+    width: 3.35rem;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.part-11{
+    margin-top: 1.5rem;
+}
+
+.part-12{
+    margin-top: 2.75rem;
+    margin-left: -121px;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+} 
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 1rem 0 1rem 0;
+    z-index: 1;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem; 
+}
+
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    margin-right: 1rem;
+}
+
+.sticky-nav-options{
+    margin-right: 0.75rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.badge i{
+    margin-right: 0.15rem;
+}
+
+.card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 0.5rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 150px;
+    background-color: #1f1f1f;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    transition: all 1s ease-out;
+}
+
+.card-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+@media(max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    height: 50%;
+    width: 90%;
+    border-top: 1px solid white;
+    opacity: 0.3;
+}
+
+.album{
+    display: flex;
+    width: 25%;
+}
+
+.player{
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.album img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.5rem;
+}
+
+.album-title{
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.album-info{
+    font-size: 0.65rem;
+    opacity: 0.5;
+    margin-top: 3rem;
+    margin-left: -2rem;
+}
+
+.album-title:hover{
+    text-decoration: underline;
+}
+
+.album-info:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.album .icon-1{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.album .icon-2{
+    margin-top: 1.25rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controls img{ 
+    height: 1rem;
+    opacity: 0.6;
+    margin-right: 2rem;
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    appearance: none;
+    width: 70%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+    margin-top: 15px;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -7px;
+}
+
+.curr-time{
+    margin-top: 1rem;
+}
+
+.tot-time{
+    margin-top: 1rem;
+}
+
+.controls-icon{
+    height: 2.75rem;
+    opacity: 0.7;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.controls-icon:hover{
+    opacity: 1;
+}
+
+.r{
+    appearance: none;
+    height: 5px;
+    border-radius: 100px;
+    margin-top: 26px;
+    margin-right: 14px;
+}
+
+.r::-webkit-slider-thumb{
+    appearance: none;
+}
+
+.album .icon-1:hover{
+    opacity: 1;
+}
+
+.album .icon-2:hover{
+    opacity: 1;
+}
+
+.player-controls img:hover{
+    opacity: 1;
+}
+
+.card:hover{
+    transform: scale(0.8);
+}
+
+.liked-songs:hover{
+    transform: scale(0.9);
+}
+
+.lost-found:hover{
+    transform: scale(0.9);
+}
+
+.atif-aslam:hover{
+    transform: scale(0.9);
+}
+
+.ed-sheeran:hover{
+    transform: scale(0.9);
+}
+
+.tanzeel-khan:hover{
+    transform: scale(0.9);
+}

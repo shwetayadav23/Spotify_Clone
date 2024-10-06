@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="spotify.css">
+
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="sidebar">
+
+            <div class="nav">
+                <div class="nav-option">
+                    <div>
+                        <i class="fa-solid fa-house" style="opacity: 1;"></i>
+                        <a href="&" style="opacity: 1;">Home</a>
+                    </div>
+                </div>
+
+                <div class="nav-option">
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="&">Search</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="%">Your Library</a>
+                    </div>
+                    <div class="lib-icons">
+                        <i class="fa-solid fa-plus" style="margin-right: 1rem;"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="badges">
+                    <button>Playlists</button>
+                    <button>Artists</button>
+                    <button>Albums</button>
+                </div>
+
+                <div class="recent">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <a href="*">Recents</a>
+                </div>
+
+                <div class="songs">
+                    <div class="liked-songs">
+                        <img src="./assets/likedsongs.jpeg">
+                        <div class="part-1">
+                            <a href="&" style="color:#1dc458;">Liked Songs</a>
+                        </div>
+                        <div class="part-2">
+                            <a href="^">Playlist ~ 480 songs</a>
+                        </div>
+                    </div>
+
+                    <div class="lost-found">
+                        <img src="./assets/lostfound.jpeg">
+                        <div class="part-3">
+                            <a href="&">Lost Found</a>
+                        </div>
+                        <div class="part-4">
+                            <a href="^">Album ~ Faheem Abdullah</a>
+                        </div>
+                    </div>
+
+                    <div class="atif-aslam">
+                        <img src="./assets/atifaslam.jpeg">
+                        <div class="part-5">
+                            <a href="&">Atif Aslam</a>
+                        </div>
+                        <div class="part-6">
+                            <a href="^">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="ed-sheeran">
+                        <img src="./assets/edsheeran.jpeg">
+                        <div class="part-7">
+                            <a href="&">Ed Sheeran</a>
+                        </div>
+                        <div class="part-8">
+                            <a href="^">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="tanzeel-khan">
+                        <img src="./assets/tanzeelkhan.jpeg">
+                        <div class="part-9">
+                            <a href="&">Tanzeel Khan</a>
+                        </div>
+                        <div class="part-10">
+                            <a href="^">Artist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge" style="color: white; background-color: black;"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks rig..</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/khaareraste.jpg" class="card-img">
+                    <p class="card-title">Khaare Raste</p>
+                    <p class="card-info">Raghav Kaushik</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiya Jinna Sohna</p>
+                    <p class="card-info">Darshav Raval</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/tauba.jpeg" class="card-img">
+                    <p class="card-title">Tauba Tauba</p>
+                    <p class="card-info">Karan Aujla</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/ishqbulava.jpg" class="card-img">
+                    <p class="card-title">Ishq Bulaava</p>
+                    <p class="card-info">Shipra Goyal, Sanam Puri</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/belongtogether.jpg" class="card-img">
+                    <p class="card-title">Belong Together</p>
+                    <p class="card-info">Mark Ambor</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your weekly updates of the most played tracks righ..</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your weekly updates of the most played tracks righ..</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">You daily updates of the most played tracks righ..</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/1985.jpeg">
+                <p class="album-title">1985</p>
+                <p class="album-info">Bo Burnham</p>
+                <img src="./assets/album_icon1.png" style="height: 25px; width: 25px;" class="icon-1">
+                <img src="./assets/album_icon2.png" class="icon-2" style="height: 35px; width: 35px;">
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png">
+                    <img src="./assets/player_icon2.png">
+                    <img src="./assets/player_icon3.png" style="height: 2rem; width: 2rem; opacity: 1;">
+                    <img src="./assets/player_icon4.png">
+                    <img src="./assets/player_icon5.png">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/controls_icon1.png" class="controls-icon">
+                <img src="./assets/controld_icon2.png" class="controls-icon">
+                <img src="./assets/controls_icon3.png" class="controls-icon" style="height: 1.5rem; width: 1.5rem; margin-top: 1.17rem;">
+                <img src="./assets/controls_icon4.png" class="controls-icon" style="height: 1rem; width: 1rem; margin-top: 1.4rem;">
+                <img src="./assets/controls_icon5.png" class="controls-icon">
+                <input type="range" min="0" max="100" step="1" class="r">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
